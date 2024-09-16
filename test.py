@@ -47,7 +47,7 @@ def play_subtitles():
 
             if t_start <= current_time <= t_end:
                 win_pos_id = subtitle['wpWinPosId']
-                line_y = win_pos_id * 12
+                line_y = win_pos_id * 10
                 draw_subtitle_line(subtitle, line_y)
 
         pygame.display.flip()
